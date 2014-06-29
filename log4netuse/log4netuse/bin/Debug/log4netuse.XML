@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>log4netuse</name>
+    </assembly>
+    <members>
+        <member name="M:log4netuse.Program.Main(System.String[])">
+            <summary>
+            Test method for log4net
+            </summary>
+            <param name="args"></param>
+        </member>
+    </members>
+</doc>

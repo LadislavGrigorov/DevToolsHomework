@@ -1,0 +1,21 @@
+﻿<#@ template debug="false" hostspecific="false" language="C#" #>
+<#@ assembly name="System.Core" #>
+<#@ import namespace="System" #>
+<#@ import namespace="System.Text" #>
+<#@ import namespace="System.Collections.Generic" #>
+<#@ output extension=".cs" #>
+<#@ output extension=".cs" #>
+namespace t4template
+{
+	using System;
+	public class Start
+	{
+		public void Start()
+		{
+			<# for(int i = 5; i > 0; i--) { #>
+				Console.Write("<#=i#>" + ", ");
+			<# } #>
+			Console.WriteLine("0" + " Start!");
+		}
+	}
+}
